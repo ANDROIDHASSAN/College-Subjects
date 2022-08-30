@@ -1,0 +1,21 @@
+Today i have learned about applet and awt . I have seen labels,buttons and text fields
+
+import java.awt.*;
+import jav.applet.*;
+/*
+<applet code ="LabelDemo> width=300 height=200>
+</applet>
+*/
+public class LabelDeom extends Applet
+{
+  public void init()
+  {
+  Label one = new Label("One");
+    Label two = new Label("Two");
+      Label three = new Label("Three");
+  //add labels to applet window
+  add(one);
+  add(two);
+  add(three);
+  }
+  }
